@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+body{}
+.bg-img{
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background: black;
+    padding: 15px 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+}
+nav ul{}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 0px 10px;
+    font-size: 22px; 
+    font-family: cursive;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+nav ul li a:hover{
+    color: #c3092b;
+}
+nav ul li a img{
+    width: 60px;
+}
+.form-section{
+    padding: 150px 0;
+}
+.form-heading{
+    text-align: center;
+    color: white;
+    padding: 50px 10px;
+    line-height: 35px;
+}
+.form-heading h1{
+    padding-bottom: 15px;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+.form-heading p{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.btn{
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.btn:hover{
+    background: #DEE1E6;
+    color: black;
+}
+form{
+    width: 450px;
+    margin-right: 50px;
+    float: right;
+    padding: 30px;
+    display: inline-block;
+    background: #000000ab;
+}
+input{
+    width: 100%;
+    border: 1px solid white;
+    border-bottom: 2px solid navajowhite;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: monospace;
+    color: white;
+    background: #ffff0000;
+    margin-bottom: 15px;
+}
+
+.side-text{
+    width: 550px;   
+    padding: -9px;
+    margin-left: 50px;
+    display: inline-block;
+    padding: 50px 50px;
+}
+
+.side-text h1{
+    color: white;
+    font-size: 33px;
+    font-family: sans-serif;
+    line-height: 45px;
+}
+.side-text p{
+    color: white;
+    line-height: 30px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.side-text ol{}
+.side-text ol li{
+    list-style-type: circle;
+    color: white;
+    font-size: medium;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.btn-learn-more{
+    font-family: monospace;
+    color: white;
+    background: #ffff0000;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    margin: 15px 0;
+}
+.btn-learn-more:hover{
+    background: #DEE1E6;
+    color: black;
