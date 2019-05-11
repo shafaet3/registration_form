@@ -24,6 +24,7 @@ header{
 }
 nav{
     text-align: center;
+    width: 100%;
 }
 nav ul{}
 nav ul li{
