@@ -11,6 +11,7 @@ body{}
 .bg-img{
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 header{
     background: black;
